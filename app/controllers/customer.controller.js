@@ -16,6 +16,7 @@ exports.create = (req, res) => {
     active: req.body.active
   });
 
+  
 
   // Save Customer in the database
   Customer.create(customer, (err, data) => {
